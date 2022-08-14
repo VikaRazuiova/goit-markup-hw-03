@@ -1,0 +1,415 @@
+:root{
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-color: #FFFFFF;
+    --dark-color: #2F303A;
+    --accent-color: #2196F3;
+    --primari-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+}
+
+
+
+/*body*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color:var(--primari-background-color);
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/*heder*/
+
+.page-header{
+    font-weight: 500;
+    line-height: 1.14; 
+    border-bottom: 1px solid #ECECEC;;
+}
+
+.nav-heder{
+    display: flex;
+    align-items: center;
+}
+
+/*logo*/
+
+.logo{
+    display: block;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+  
+}
+
+.logo-black{
+    color: #000000;
+}
+
+.logo-blue{
+    color: var(--accent-color);
+}
+
+/*navigation*/
+
+.site-nav{
+    display: flex;
+}
+
+.site-nav .item{
+    margin-left: 50px;
+}
+
+.site-nav .item:first-child{
+    margin-left: 93px;
+}
+
+.site-nav .list{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    letter-spacing: 0.02em;
+    color: inherit;  
+}
+
+.site-nav .list.current{
+    color: var(--accent-color);
+}
+
+.site-nav :hover,
+.site-nav :focus{
+    color:var(--accent-color);
+}
+
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+
+.contacts .item + .item{
+    margin-left: 50px;
+}
+
+.contacts :hover,
+.contacts :focus{
+    color:var(--accent-color);
+}
+.contacts .list{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    letter-spacing: 0.02em;
+    color:var(--secondary-text-color);
+}
+
+
+/*hiro*/
+
+.hiro{
+    background-color:var(--dark-color);
+    text-align: center;
+}
+
+.hiro-title{
+    margin-bottom: 30px;
+
+    color:var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hiro button{
+    padding: 10px 32px;
+    border: 0;
+    border-radius: 4px;
+
+    background-color:var(--accent-color);
+    color:var(--white-color);
+
+    font-weight: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    cursor: pointer;
+}
+
+.hiro button:hover,
+.hiro button:focus{
+    background-color:var(--white-color);
+    color:var(--accent-color);
+}
+
+/*features*/
+
+.features{
+    display: flex;  
+    padding-bottom: 0;
+}
+
+.features .item{
+    width: 270px;
+    margin-right: 30px;
+}
+
+.features .item:last-child{
+    margin-right: 0;
+}
+
+.features-text{
+    font-weight: 400;
+    line-height: 1.7;
+    color:var(--secondary-text-color);
+}
+
+.features-title{
+    margin-bottom: 10px;
+    line-height: 1.14;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+/*activity*/
+
+.images{
+    display: flex; 
+}
+
+.images .item{
+    margin-right: 30px;
+}
+
+.images .item:last-child{
+    margin-right: 0;
+}
+
+.images-title{
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.list img{
+    display: block;  
+}
+
+
+
+/*team*/
+
+.team{
+    display: flex;
+    background-color:var(--secondary-background-color);
+    line-height: 1.18;   
+}
+
+.team .item{
+    width: 270px;
+    margin-right: 30px;
+    border-radius: 0px 0px 4px 4px;
+
+    background-color: var(--white-color);
+}
+.team .item:last-child{
+    margin-right: 0;
+}
+
+
+.team-title{
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    font-weight: 700;
+}
+
+.team-name{
+    margin-top: 30px;
+    margin-bottom: 10px;  
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+.team-text{
+    margin-bottom: 30px;
+
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color:var(--secondary-text-color); 
+}
+
+
+/*footer*/
+
+.page-footer{
+    background-color:var(--dark-color);
+    font-weight: 400;
+    line-height: 1.7;  
+}
+
+.logo-footer{
+    margin: 0;
+    padding: 60px 0 20px 0;
+}
+
+.page-address{
+    margin: 0;
+    padding: 0;
+
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+}
+
+.page-address .item{
+    padding-bottom: 9px;
+}
+
+.page-address .item:last-child{
+    padding-bottom: 60px;
+}
+
+.page-address :hover,
+.page-address :focus{
+    color:var(--accent-color);
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+
+.address-footer{
+    color:var(--white-color);  
+}
+
+.address-link{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*portfplio*/
+
+/*portfolio filter*/
+
+.buttons{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 34px;
+    padding-bottom: 16px;
+}
+
+.buttons .item{
+    margin-right: 8px;
+}
+
+.buttons .item:last-child{
+    margin-right: 0px;
+}
+
+.buttons [type]{
+    padding: 6px 22px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    color: currentColor;
+    letter-spacing: inherit;
+}
+
+.buttons [type]:hover,
+.buttons [type]:focus{
+    color:var(--white-color);
+    background:var(--accent-color);  
+}
+
+
+    /*examples of projects*/ 
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects .item{
+    width: 370px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.projects .item:nth-child(3n){
+    margin-right: 0px;
+}
+
+.projects .item:nth-last-child(-n+3){
+    margin-bottom: 0px;
+}
+
+.projects a {
+    color: inherit;
+}
+
+.projects-title{
+    margin: 20px 24px 4px 24px;
+    
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
+}
+
+.projects-text{
+    margin: 0 24px 20px 24px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+}
