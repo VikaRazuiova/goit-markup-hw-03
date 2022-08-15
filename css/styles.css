@@ -179,7 +179,7 @@ p{
 
 .features{
     display: flex;  
-    padding-bottom: 0;
+    padding-bottom: 47px;
 }
 
 .features .item{
@@ -208,15 +208,20 @@ p{
 
 /*activity*/
 
-.images{
-    display: flex; 
+.section.images{
+    padding-top: 47px;
 }
 
-.images .item{
+.images-list{
+    display: flex;   
+}
+
+.images-list .item{
+    width: 370;
     margin-right: 30px;
 }
 
-.images .item:last-child{
+.images-list .item:last-child{
     margin-right: 0;
 }
 
@@ -264,8 +269,8 @@ p{
 }
 
 .team-name{
-    margin-top: 30px;
-    margin-bottom: 10px;  
+    padding-top: 30px;
+    padding-bottom: 10px;  
 
     text-align: center;
     font-size: 16px;
@@ -273,7 +278,7 @@ p{
 }
 
 .team-text{
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 
     text-align: center;
     font-weight: 400;
@@ -398,7 +403,7 @@ p{
 }
 
 .projects-title{
-    margin: 20px 24px 4px 24px;
+    padding: 20px 24px 4px 24px;
     
     font-size: 18px;
     line-height: 2;
@@ -406,7 +411,7 @@ p{
 }
 
 .projects-text{
-    margin: 0 24px 20px 24px;
+    padding: 0 24px 20px 24px;
 
     font-weight: 400;
     font-size: 16px;
