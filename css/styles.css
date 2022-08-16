@@ -383,11 +383,18 @@ p{
     flex-wrap: wrap;
 }
 
+.projects-card{
+    border: 1px solid #EEEEEE;
+}
+.projects-card{
+    border-top: 0;
+}
+
 .projects .item{
     width: 370px;
     margin-bottom: 30px;
     margin-right: 30px;
-    border: 1px solid #EEEEEE;
+    
 }
 
 .projects .item:nth-child(3n){
