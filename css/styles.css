@@ -86,14 +86,15 @@ p{
 
 .site-nav{
     display: flex;
+    margin-left: 93px;
 }
 
 .site-nav .item{
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.site-nav .item:first-child{
-    margin-left: 93px;
+.site-nav .item:last-child{
+    margin-right: 0; 
 }
 
 .site-nav .list{
@@ -137,14 +138,18 @@ p{
 }
 
 
-/*hiro*/
+/*hero*/
 
-.hiro{
+.hero{
     background-color:var(--dark-color);
+    height: 600px;
+    padding: 200px 0;
+    align-items: center;
     text-align: center;
 }
 
-.hiro-title{
+
+.hero-title{
     margin-bottom: 30px;
 
     color:var(--white-color);
@@ -155,7 +160,7 @@ p{
     text-transform: uppercase;
 }
 
-.hiro button{
+.hero button{
     padding: 10px 32px;
     border: 0;
     border-radius: 4px;
@@ -169,8 +174,8 @@ p{
     cursor: pointer;
 }
 
-.hiro button:hover,
-.hiro button:focus{
+.hero button:hover,
+.hero button:focus{
     background-color:var(--white-color);
     color:var(--accent-color);
 }
@@ -179,7 +184,7 @@ p{
 
 .features{
     display: flex;  
-    padding-bottom: 47px;
+    padding-bottom: 94px;
 }
 
 .features .item{
@@ -209,7 +214,7 @@ p{
 /*activity*/
 
 .section.images{
-    padding-top: 47px;
+    padding-top: 0px;
 }
 
 .images-list{
@@ -293,11 +298,14 @@ p{
     background-color:var(--dark-color);
     font-weight: 400;
     line-height: 1.7;  
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer{
     margin: 0;
-    padding: 60px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 .page-address{
@@ -314,7 +322,7 @@ p{
 }
 
 .page-address .item:last-child{
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 
 .page-address :hover,
