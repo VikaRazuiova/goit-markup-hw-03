@@ -9,7 +9,6 @@
 }
 
 
-
 /*body*/
 
 body{
@@ -29,6 +28,9 @@ p{
     margin: 0;
     padding: 0;
 }
+img {
+    display: block;
+}
 
 .list {
     padding: 0;
@@ -36,18 +38,29 @@ p{
     list-style: none;
     text-decoration: none;
 }
-
 .container{
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
 }
-
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 
 /*heder*/
 
@@ -139,15 +152,18 @@ p{
 
 /*hero*/
 
+
+
 .hero{
     background-color:var(--dark-color);
-    padding: 200px 0;
-    text-align: center;
+    min-height: 600px;
+    display: flex;
 }
 
-
 .hero-title{
+    text-align: center;
     margin-bottom: 30px;
+    max-width: 696px;
 
     color:var(--white-color);
     font-weight: 900;
@@ -157,14 +173,21 @@ p{
     text-transform: uppercase;
 }
 
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero button{
     padding: 10px 32px;
     border: 0;
     border-radius: 4px;
+    width: 216px;
 
     background-color:var(--accent-color);
     color:var(--white-color);
-
     font-weight: inherit;
     font-size: 16px;
     line-height: 1.88;
@@ -176,6 +199,7 @@ p{
     background-color:var(--white-color);
     color:var(--accent-color);
 }
+
 
 /*features*/
 
@@ -232,10 +256,6 @@ p{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-}
-
-.list img{
-    display: block;  
 }
 
 
