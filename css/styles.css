@@ -185,8 +185,7 @@ button{
 /*features*/
 
 .features{
-    display: flex;  
-    padding-bottom: 94px;
+    display: flex;
 }
 
 .features .item{
