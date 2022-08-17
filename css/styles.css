@@ -30,10 +30,6 @@ p{
     padding: 0;
 }
 
-button{
-    cursor: pointer;
-}
-
 .list {
     padding: 0;
     margin: 0;
@@ -75,7 +71,6 @@ button{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-  
 }
 
 .logo-black{
@@ -128,8 +123,8 @@ button{
     margin-left: 50px;
 }
 
-.contacts :hover,
-.contacts :focus{
+.contacts .item :hover,
+.contacts .item :focus{
     color:var(--accent-color);
 }
 .contacts .list{
