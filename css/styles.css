@@ -30,6 +30,10 @@ p{
     padding: 0;
 }
 
+button{
+    cursor: pointer;
+}
+
 .list {
     padding: 0;
     margin: 0;
@@ -142,9 +146,7 @@ p{
 
 .hero{
     background-color:var(--dark-color);
-    height: 600px;
     padding: 200px 0;
-    align-items: center;
     text-align: center;
 }
 
@@ -303,13 +305,9 @@ p{
     padding-bottom: 60px;
 }
 
-.logo-footer{
-    margin: 0;
-    padding-bottom: 20px;
-}
 
 .page-address{
-    margin: 0;
+    margin: 20px 0 0 0;
     padding: 0;
 
     font-style: normal;
